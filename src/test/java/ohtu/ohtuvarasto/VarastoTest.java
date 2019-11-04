@@ -61,7 +61,7 @@ public class VarastoTest {
     @Test
     public void eiVoiLisataYliTilavuuden() {
         varasto.lisaaVarastoon(12);
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
