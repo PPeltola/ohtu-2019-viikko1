@@ -110,7 +110,7 @@ public class VarastoTest {
         varasto.lisaaVarastoon(5);
         varasto.otaVarastosta(8);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
-        // turha kommentti
+        // turha 
     }
 
     @Test
